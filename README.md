@@ -1,2 +1,2 @@
 # marvelousdb
-Appfog &amp; Orchestrate Marvel Application
+Appfog and Orchestrate Marvel Application

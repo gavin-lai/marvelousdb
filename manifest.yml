@@ -1,0 +1,7 @@
+---
+applications:
+- name: marveluniverse
+  memory: 1GB
+  instances: 1
+  services:
+    - marveldb
