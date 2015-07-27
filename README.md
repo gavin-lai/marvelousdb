@@ -56,10 +56,10 @@ All Comics and Characters in this sample application are © 2015 MARVEL
     cf create-service orchestrate free marveldb
     ```
 
-    Note: the 'marveldb' service name matches the manifest.yaml in this sample application.  Use of a different name for the DBaaS service requires the user edit the manifest.yaml file appropriately prior to pushing the application in later steps.
+    Note: the 'marveldb' service name matches the manifest.yml in this sample application.  Use of a different name for the DBaaS service requires the user edit the manifest.yml file appropriately prior to pushing the application in later steps.
 
     ```
-    manifest.yaml
+    manifest.yml
     ---
     applications:
     - name: marveluniverse-${random-word}
@@ -69,7 +69,7 @@ All Comics and Characters in this sample application are © 2015 MARVEL
         - marveldb
     ```
 
-7. Push your Marvel Application to AppFog.  The manifest.yaml simplifies the process by defining the app name (with a random word), memory, instance counts and the services (in this case Orchestrate DBaaS) to which the application will bind.
+7. Push your Marvel Application to AppFog.  The manifest.yml simplifies the process by defining the app name (with a random word), memory, instance counts and the services (in this case Orchestrate DBaaS) to which the application will bind.
 
     ```
     cf Push
