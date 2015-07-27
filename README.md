@@ -1,4 +1,4 @@
-# Appfog and Orchestrate Marvel Sample Application for [CenturyLink Cloud](//www.ctl.io)
+## Appfog and Orchestrate Marvel Sample Application for [CenturyLink Cloud](//www.ctl.io)
 
 ### Prerequisites
 
@@ -185,6 +185,20 @@
     ```
 
 7.  Open your AppFog Marvel Application and Explore the Marvel universe.
+
+### Scaling AppFog applications
+
+1. Scale your Marvel Application Memory from 256MB to 512MB.
+
+    ```
+    cf scale marveluniverse-<Random-Word> -m 512MB
+    ```
+
+2. Scale your Marvel Application Instance count from 1 to 4.
+
+    ```
+    cf scale marveluniverse-<Random-Word> -i 4
+    ```
 
 ### Clean-Up
 
