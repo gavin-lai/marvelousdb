@@ -1,7 +1,7 @@
 ---
 applications:
-- name: marveluniverse
-  memory: 1GB
+- name: marveluniverse-${random-word}
+  memory: 256MB
   instances: 1
   services:
     - marveldb
