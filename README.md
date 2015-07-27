@@ -123,7 +123,7 @@
     marveluniverse-<Random-Word>   started           1/1         256M     1G     marveluniverse-<Random-Word>.useast.appfog.ctl.io
     ```
 
-4. run 'cf env <app name>' to gather the API_KEY and API_URL for use with the Orchestrate Bulk Import tool.
+4. run 'cf env app_name' to gather the API_KEY and API_URL for use with the Orchestrate Bulk Import tool.
 
     ```
     cf env marveluniverse-<Random-Word>
@@ -185,3 +185,29 @@
     ```
 
 7.  Open your AppFog Marvel Application and Explore the Marvel universe.
+
+### Clean-Up
+
+1. Run 'cf delete app_name' to delete your test application
+
+    ```
+    cf delete marveluniverse-<Random-Word>
+    ```
+
+    ```
+    Really delete the app marveluniverse-<Random-Word>? yes
+    Deleting app marveluniverse-<Random-Word> in org <ALIAS> / space <Space Name> as <Username>...
+    OK
+    ```
+
+2. Run 'cf delete-space space-name' to remove the AppFog space
+
+    ```
+    cf delete-space <space name>
+    ```
+
+    ```
+    Really delete the space <space name>? yes
+    Deleting space <space name> in org <Alias> as <Username>...
+    OK
+    ```
