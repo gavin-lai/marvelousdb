@@ -1,5 +1,7 @@
 ## Appfog and Orchestrate Marvel Sample Application for [CenturyLink Cloud](//www.ctl.io)
 
+All Comics and Characters in this sample application are © 2015 MARVEL
+
 ### Prerequisites
 
 * A [CenturyLink Cloud](//www.ctl.io) Account
