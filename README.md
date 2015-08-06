@@ -216,7 +216,19 @@ All Comics and Characters in this sample application are © 2015 MARVEL
     OK
     ```
 
-2. Run 'cf delete-space space-name' to remove the AppFog space
+2. Run 'cf delete-service marveldb' to remove the Orchestrate DBaaS instance.
+
+    ```
+    cf delete-service marveldb
+    ```
+
+    ```
+    Really delete the service marveldb?> yes
+    Deleting service marveldb in org <ALIAS> / space <Space Name> as <Username>...
+    OK
+    ```
+
+3. Run 'cf delete-space space-name' to remove the AppFog space
 
     ```
     cf delete-space <space name>
